@@ -1,0 +1,45 @@
+body > header > nav > ul {
+  display: flex;
+  justify-content: space-around;
+}
+body {
+  margin: 0;
+}
+body > header > nav > ul{
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: lightblue;
+  font-family: cursive;
+  font-weight: bold;
+}
+body > header > nav > ul > li {
+  list-style-type: none;
+}
+li {
+  list-style-type: none;
+}
+body > header > nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+.splashscreen {
+  height: 80vh;
+  background-image: url(http://68.media.tumblr.com/408fbfeae2d8590512b9fc9cc6207090/tumblr_mr807bH7hh1st5lhmo1_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.splashscreen > div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    align-items: center;
+}
+section.splash > article {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
